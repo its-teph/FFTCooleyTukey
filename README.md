@@ -7,3 +7,6 @@ This project aims to implement Parallel Fast Fourier Transform (FFT) using Coole
 
 The algorithm used in this project for the Implementation of Fast Fourier Transform is the Cooley-Tukey Algorithm, which is a widely used method for the implementation of FFT. This Cooley-Tukey algorithm has a time complexity of O(N log N), where N is the number of samples. This makes it significantly faster than the Discrete Fourier Transform (DFT) algorithm, which has a time complexity of O(N^2). By utilizing the divide-and-conquer approach, the Cooley-Tukey algorithm reduces the number of operations required to compute the FFT, making it highly efficient for large input sizes. 
 
+The pseudocode for the Cooley Tukey Algorithm is can be written as:
+
+![image](https://github.com/its-teph/FFTCooleyTukey/assets/80933795/7ba754c0-ad7a-431a-8221-298d65262c2b)

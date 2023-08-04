@@ -29,20 +29,20 @@ The average execution time of the Sequential and Parallel implementation are com
 | Array Size   | 2^8            | 2^20          | 2^24        | 2^26       |
 |--------------|----------------|---------------|-------------|------------|
 | Sequential   | 83.37us        | 549518.13us   | 1703862.30us|7671967.90us|
-| Parallel     | 32.09us        | 1395.2us      | 8242.2us    | 339966us   |
+| Parallel     | 4.79us         | 700.27us      | 4239.1us    |11694us     |
 
 
 The presented analysis contrasts two distinct implementations of the Fast Fourier Transform (FFT) algorithm: a Parallel FFT Cooley Tukey Implementation and a Sequential Implementation in the C programming language. The comparison centers around the evaluation of their respective execution times across various input sizes with 30 runs each test cases. The findings underscore a marked superiority of the Parallel FFT Cooley Tukey Implementation over its Sequential counterpart across all test cases.
 
-Focusing on a specific input size, by the case where the input size is 2^8 (256), the distinction in average execution time between the two implementations is relatively narrower. Here, the Parallel Implementation achieves an execution time reduction of approximately 61.5%.
-When considering an input size of 2^20, the Parallel Implementation showcases an exceptional execution time reduction of 99.7461%. This enhancement in execution time signifies a substantial advancement in computational efficiency and resource utilization. Similarly, for an input size of 2^24, the parallel implementation yields a substantial execution time reduction of 99.5163%. It is worth noting that the program attains its upper limit in handling input sizes with 2^26 values, reflecting the extent of its computational capability. In this case, the Parallel implementation shows an execution time reduction of 95.5%. 
+Focusing on a specific input size, by the case where the input size is 2^8 (256), the distinction in average execution time between the two implementations is relatively large. Here, the Parallel Implementation achieves an execution time reduction of approximately 94.03%.
+When considering an input size of 2^20, the Parallel Implementation showcases an exceptional execution time reduction of 99.87%. This enhancement in execution time signifies a substantial advancement in computational efficiency and resource utilization. Similarly, for an input size of 2^24, the parallel implementation yields a substantial execution time reduction of 99.5163%. It is worth noting that the program attains its upper limit in handling input sizes with 2^26 values, reflecting the extent of its computational capability. In this case, the Parallel implementation shows an execution time reduction of 95.5%. 
 
 
 ## Conclusion
 
 In computational algorithms, this analysis has delved into the efficiency of two Fast Fourier Transform (FFT) implementations using Cooley Tukey Algorithm: the Parallel Implementation in CUDA and the Sequential Implementation in C. The evaluation has been guided by the execution time, and the results shows Parallel FFT Cooley Tukey method consistently outperforms its Sequential counterpart.
 
-Across a range of scenarios, the Parallel approach demonstrates a consistent advantage over the Sequential method, showcasing superior computational speed and resource management. Notably, this advantage becomes more pronounced with larger input sizes. For instance, at an input size of 2^8 (256), the Parallel approach achieves a 61.5% reduction in execution time. Scaling up to 2^20, the gain is substantial, with an impressive 99.7461% reduction in execution time. Similarly, at an input size of 2^24, the Parallel approach achieves a significant execution time reduction of 99.5163%.
+Across a range of scenarios, the Parallel approach demonstrates a consistent advantage over the Sequential method, showcasing superior computational speed and resource management. Notably, this advantage becomes more pronounced with larger input sizes. For instance, at an input size of 2^8 (256), the Parallel approach achieves a 94.03% reduction in execution time. Scaling up to 2^20, the gain is substantial, with an impressive 99.87% reduction in execution time. Similarly, at an input size of 2^24, the Parallel approach achieves a significant execution time reduction of 99.5163%.
 
 It's worth noting that the program's capabilities have limitations, comfortably handling inputs up to 2^26 values. This milestone underscores the proficiency of the implementation while also highlighting the constraints inherent in parallel processing.
 

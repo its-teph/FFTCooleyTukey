@@ -1,7 +1,7 @@
 # Parallel Fast Fourier Transform using Cooley Tukey Algorithm
 
 Group 1:
-CAI, Edison
+CAI, Edison &
 SUSADA, Stephanie Joy
 
 Google Colab Link: https://colab.research.google.com/drive/16pGEHTBlHSDq4Yk-BA_LaDzZocQAbUZJ?usp=sharing

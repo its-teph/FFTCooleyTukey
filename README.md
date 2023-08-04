@@ -4,6 +4,8 @@ Group 1:
 CAI, Edison &
 SUSADA, Stephanie Joy
 
+Video Demo Link: https://drive.google.com/file/d/11Vyod_2Il_ucML5EPUw7sHimpy5XW5tH/view?usp=sharing
+
 Google Colab Link: https://colab.research.google.com/drive/16pGEHTBlHSDq4Yk-BA_LaDzZocQAbUZJ?usp=sharing
 
 

@@ -20,7 +20,7 @@ The program implementation for this project first sets up the necessary structur
 
 ## Execution Time Comparison - Sequential VS Parallel
 
-| Array Size   | 2^20           | 2^24          |
-|--------------|----------------|---------------|
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+| Array Size   | 2^20           | 2^24          | 2^28      |
+|--------------|----------------|---------------|-----------|
+| Sequential   | git status     | git status    |           |
+| Parallel     | git diff       | git diff      |           |
